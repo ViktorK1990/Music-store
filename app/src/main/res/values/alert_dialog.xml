@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog.Alert">
+    <!-- Used for the buttons -->
+    <item name="colorAccent">#FFFDFD</item>
+    <!-- Used for the title and text -->
+    <item name="android:textColorPrimary">#FFFFFF</item>
+    <item name="android:fontFamily">@font/roboto_slab_bold</item>
+    <!-- Used for the background -->
+    <item name="android:background">#707070</item>
+</style>
+</resources>

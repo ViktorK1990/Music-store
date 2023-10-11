@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Music store</string>
+    <string name="number">Ввелите номер телефона</string>
+    <string name="password">Введите пароль</string>
+    <string name="login">Введите ваше имя</string>
+    <string name="auth_btn">Авторизация</string>
+    <string name="reg_btn">Регистрация</string>
+    <string name="regPage_btn">Выбрать</string>
+    <string name="entry_btn">Войти</string>
+    <string name="menu_title">Корзина</string>
+    <string name="admin_title">Добавить товар</string>
+    <string name="admin_addItem">Название категории товара</string>
+    <string name="add_item_label">Добавьте наименования</string>
+    <string name="admin_addImg">Добавить картинку</string>
+    <string name="admin_addId">Id</string>
+    <string name="add_btn">Добавить</string>
+    <string name="item_name_field">Добавить название</string>
+    <string name="item_info_field">Добавить информацию</string>
+    <string name="item_price_field">Добавить цену</string>
+    <string name="saveAll_btn">Сохранить</string>
+    <string name="cart_btn">В  корзину</string>
+    <string name="cart_label">Корзина</string>
+    <string name="clear_btn">Очистить</string>
+    <string name="total_btn">Оформить заказ</string>
+    <string name="emptyGoods_label">К сожалению в этой категории нет товаров</string>
+</resources>

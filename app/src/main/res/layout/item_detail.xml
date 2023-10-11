@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/item_tittle"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15sp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/gut1" />
+
+    <TextView
+        android:id="@+id/item_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/item_info"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="30sp"
+        android:layout_marginBottom="30sp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/cart_btn"
+        android:layout_width="170sp"
+        android:layout_height="50sp"
+        android:layout_marginBottom="20sp"
+        android:background="@drawable/reg_btn"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:text="@string/cart_btn"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+</LinearLayout>
+

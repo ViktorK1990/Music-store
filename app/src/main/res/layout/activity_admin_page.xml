@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminPage">
+
+    <TextView
+        android:id="@+id/admin_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:textSize="35sp"
+        android:text="@string/admin_title" />
+
+
+    <EditText
+        android:id="@+id/item_field"
+        android:layout_width="250sp"
+        android:layout_height="50sp"
+        android:layout_below="@+id/admin_label"
+        android:layout_alignParentRight="true"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_toEndOf="@+id/id_field"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:hint="@string/admin_addItem"
+        android:textColorHint="@color/black"
+        android:textCursorDrawable="@drawable/cursor_color"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/id_field"
+        android:layout_width="60sp"
+        android:layout_height="50sp"
+        android:layout_below="@+id/admin_label"
+        android:layout_marginTop="20sp"
+        android:layout_marginHorizontal="20sp"
+        android:hint="@string/admin_addId"
+        android:textColorHint="@color/black"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textCursorDrawable="@drawable/cursor_color"
+        android:backgroundTint="@color/black"/>
+
+    <EditText
+        android:id="@+id/img_field"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginHorizontal="20sp"
+        android:layout_below="@+id/item_field"
+        android:inputType="text"
+        android:hint="@string/admin_addImg"
+        android:textColorHint="@color/black"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:textSize="18sp"
+        android:textCursorDrawable="@drawable/cursor_color"
+        android:backgroundTint="@color/black"/>
+
+    <Button
+        android:id="@+id/save_btn"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_below="@+id/img_field"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10sp"
+        android:background="@drawable/reg_btn"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:gravity="center"
+        android:padding="10sp"
+        android:text="@string/regPage_btn"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/add_item_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:textSize="25sp"
+        android:text="@string/add_item_label"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:id="@+id/item_info_field"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginHorizontal="20sp"
+        android:layout_below="@+id/item_img_field"
+        android:inputType="text"
+        android:hint="@string/item_info_field"
+        android:textColorHint="@color/black"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:textSize="18sp"
+        android:textCursorDrawable="@drawable/cursor_color"
+        android:backgroundTint="@color/black"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:id="@+id/item_name_field"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginHorizontal="20sp"
+        android:layout_below="@+id/add_item_label"
+        android:inputType="text"
+        android:hint="@string/item_name_field"
+        android:textColorHint="@color/black"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:textSize="18sp"
+        android:textCursorDrawable="@drawable/cursor_color"
+        android:backgroundTint="@color/black"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:id="@+id/item_img_field"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginHorizontal="20sp"
+        android:layout_below="@+id/item_price_field"
+        android:inputType="text"
+        android:hint="@string/admin_addImg"
+        android:textColorHint="@color/black"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:textSize="18sp"
+        android:textCursorDrawable="@drawable/cursor_color"
+        android:backgroundTint="@color/black"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:id="@+id/item_price_field"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginHorizontal="20sp"
+        android:layout_below="@+id/item_name_field"
+        android:inputType="text"
+        android:hint="@string/item_price_field"
+        android:textColorHint="@color/black"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:textSize="18sp"
+        android:textCursorDrawable="@drawable/cursor_color"
+        android:backgroundTint="@color/black"
+        android:visibility="invisible"/>
+
+
+    <Button
+        android:id="@+id/add_btn"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_below="@+id/item_info_field"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10sp"
+        android:background="@drawable/reg_btn"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:gravity="center"
+        android:padding="10sp"
+        android:text="@string/add_btn"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/saveAll_btn"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_below="@+id/add_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10sp"
+        android:background="@drawable/reg_btn"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:gravity="center"
+        android:padding="10sp"
+        android:text="@string/saveAll_btn"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:visibility="invisible"/>
+
+</RelativeLayout>
